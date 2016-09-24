@@ -1,0 +1,666 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    height: 40px;
+    background-color: black;
+    width: 100%;
+}
+
+.main_width {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    letter-spacing: 1px;
+    float: left;
+}
+
+.on {
+    color: #24baa0;
+    font-weight: bolder;
+}
+
+.nav {
+    float: right;
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 13px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.section1 {
+    border: 1px solid black;
+    height: 503px;
+    background: rgba(252, 252, 252, 1);
+    background: -moz-linear-gradient(top, rgba(252, 252, 252, 1) 0%, rgba(242, 242, 242, 1) 47%, rgba(235, 235, 235, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(252, 252, 252, 1)), color-stop(47%, rgba(242, 242, 242, 1)), color-stop(100%, rgba(235, 235, 235, 1)));
+    background: -webkit-linear-gradient(top, rgba(252, 252, 252, 1) 0%, rgba(242, 242, 242, 1) 47%, rgba(235, 235, 235, 1) 100%);
+    background: -o-linear-gradient(top, rgba(252, 252, 252, 1) 0%, rgba(242, 242, 242, 1) 47%, rgba(235, 235, 235, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(252, 252, 252, 1) 0%, rgba(242, 242, 242, 1) 47%, rgba(235, 235, 235, 1) 100%);
+    background: linear-gradient(to bottom, rgba(252, 252, 252, 1) 0%, rgba(242, 242, 242, 1) 47%, rgba(235, 235, 235, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#ebebeb', GradientType=0);
+}
+
+.arrow1 {
+    font-size: 62px;
+    color: #24baa0;
+    float: left;
+    margin-top: 241px;
+}
+
+.black_chair {
+    float: left;
+}
+
+div.black_chair img {
+    margin-top: 116px;
+}
+
+.sit_on_it {
+    float: left;
+    margin-top: 140px;
+    width: 425px;
+}
+
+.arrow2 {
+    font-size: 62px;
+    color: #24baa0;
+    float: right;
+    margin-top: 241px;
+}
+
+.sit_on_it {
+    text-align: center;
+}
+
+.sit_on_it h1 {
+    font-size: 35px;
+    color: black;
+    font-weight: 900;
+    margin-bottom: 41px;
+}
+
+.sit_on_it p {
+    line-height: 1.5em;
+}
+
+.big_on {
+    color: #24baa0;
+}
+
+.chair {
+    color: #24baa0;
+}
+
+.main_button {
+    width: 255px;
+    height: 50px;
+    background-color: #24baa0;
+    color: white;
+    padding: 13px;
+    margin: 24px auto;
+    border-radius: 9px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: larger;
+}
+
+div.clair_img {
+    float: left;
+    background-image: url("../photos/Layer10.png");
+    width: 325px;
+    height: 224px;
+    background-size: cover;
+    margin-top: 28px;
+    margin-right: 42px;
+}
+
+div.clair_opa {
+    height: 60px;
+    margin-top: 145px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+div.clair_opa p {
+    font-weight: 800;
+    border-bottom: 7px solid #27c7ab;
+    width: 128px;
+    margin-left: 16px;
+    padding-top: 11px;
+}
+
+div.margarita_img {
+    float: left;
+    background-image: url("../photos/Layer11.png");
+    width: 325px;
+    height: 224px;
+    background-size: cover;
+    margin-top: 28px;
+    margin-right: 42px;
+}
+
+div.margarita_opa {
+    height: 60px;
+    margin-top: 145px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+div.margarita_opa p {
+    font-weight: 800;
+    border-bottom: 7px solid #27c7ab;
+    width: 137px;
+    margin-left: 16px;
+    padding-top: 11px;
+}
+
+div.findsAllInputs {
+    float: left;
+    width: 365px;
+    height: 256px;
+    border: 1px solid #efefef;
+    margin-top: 28px;
+}
+
+.section2 div.main_width::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.findsAllInputs p {
+    margin: 17px;
+    line-height: 20px;
+}
+
+.findsAllInputs p:nth-of-type(1) {
+    font-weight: 800;
+    border-bottom: 7px solid #27c7ab;
+    width: 137px;
+    margin-left: 16px;
+    padding-top: 11px;
+}
+
+.findsAllInputs p:nth-of-type(2) {
+    color: #616161;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+.findsAllInputs p:nth-of-type(3) {
+    color: #616161;
+    line-height: 21px;
+    font-size: 14px;
+}
+
+section.section3 {
+    background-color: #f1f1f1;
+    height: 730px;
+}
+
+p.cennik {
+    font-weight: 900;
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #818181;
+    padding: 41px 0 10px 0;
+    border-bottom: 7px solid #27c7ab;
+    width: 326px;
+    margin-bottom: 55px;
+}
+
+div.basic {
+    height: 537px;
+    width: 328px;
+    border: 2px solid #C2C2C3;
+    background-color: #f9f9f9;
+    margin-right: 58px;
+    float: left;
+}
+
+div.basic_top_circle {
+    width: 56px;
+    height: 56px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 100%;
+    position: relative;
+    bottom: 30px;
+    left: calc(50% - 28px);
+}
+
+div.basic_middle_circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    position: relative;
+    top: calc(50% - 14px);
+    left: calc(50% - 14px);
+    background-color: #C2C2C3;
+}
+
+p.basic_plan {
+    font-size: 23px;
+    color: #27c7ab;
+    font-weight: 700;
+    width: 50%;
+    margin: 0 auto;
+    padding: 14px;
+}
+
+div.basic_big_circle {
+    width: 128px;
+    height: 128px;
+    border: 2px solid #C2C2C3;
+    border-radius: 100%;
+    margin: 30px auto;
+}
+
+div.basic_cena {
+    margin-left: calc(50% - 28px);
+    font-size: 36px;
+    font-weight: 900;
+    color: #C2C2C3;
+    margin-top: inherit;
+    letter-spacing: 2px;
+}
+
+div.basic_cena sup {
+    vertical-align: text-top;
+    font-size: small;
+    font-weight: bolder;
+}
+
+div.basic_waluta {
+    margin-left: calc(50% - 43px);
+    font-size: 17px;
+    font-weight: 800;
+    color: #C2C2C3;
+    letter-spacing: 1px;
+}
+
+p.basic_zakup {
+    height: 42px;
+    background-color: #e4e4e4;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 6px 0 6px 0;
+    color: #8f8f8f;
+}
+
+p.basic_servis {
+    height: 42px;
+    background-color: #f1f1f1;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 6px 0 6px 0;
+    color: #7a7a7a;
+}
+
+div.basic_button_dolacz {
+    width: 120px;
+    height: 36px;
+    background-color: #24baa0;
+    color: white;
+    padding: 10px;
+    margin: 99px auto;
+    border-radius: 9px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+}
+
+div.standard {
+    height: 537px;
+    width: 328px;
+    border: 2px solid #C2C2C3;
+    background-color: #f9f9f9;
+    margin-right: 58px;
+    float: left;
+}
+
+div.standard_top_circle {
+    width: 56px;
+    height: 56px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 100%;
+    position: relative;
+    bottom: 30px;
+    left: calc(50% - 28px);
+}
+
+div.standard_middle_circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    position: relative;
+    top: calc(50% - 14px);
+    left: calc(50% - 14px);
+    background-color: #C2C2C3;
+}
+
+p.standard_plan {
+    font-size: 23px;
+    color: #27c7ab;
+    font-weight: 700;
+    width: 70%;
+    margin: 0 auto;
+    padding: 14px;
+}
+
+div.standard_big_circle {
+    width: 128px;
+    height: 128px;
+    border: 2px solid #C2C2C3;
+    border-radius: 100%;
+    margin: 30px auto;
+}
+
+div.standard_cena {
+    margin-left: calc(50% - 28px);
+    font-size: 36px;
+    font-weight: 900;
+    color: #C2C2C3;
+    margin-top: inherit;
+    letter-spacing: 2px;
+}
+
+div.standard_cena sup {
+    vertical-align: text-top;
+    font-size: small;
+    font-weight: bolder;
+}
+
+div.standard_waluta {
+    margin-left: calc(50% - 43px);
+    font-size: 17px;
+    font-weight: 800;
+    color: #C2C2C3;
+    letter-spacing: 1px;
+}
+
+p.standard_zakup {
+    height: 42px;
+    background-color: #e4e4e4;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 6px 0 6px 0;
+    color: #8f8f8f;
+}
+
+p.standard_servis {
+    height: 42px;
+    background-color: #f1f1f1;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 6px 0 6px 0;
+    color: #7a7a7a;
+}
+
+p.standard_gwarancja {
+    height: 42px;
+    background-color: #f1f1f1;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 6px 0 6px 0;
+    color: #7a7a7a;
+}
+
+div.standard_button_dolacz {
+    width: 120px;
+    height: 36px;
+    background-color: #24baa0;
+    color: white;
+    padding: 10px;
+    margin: 57px auto;
+    border-radius: 9px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+}
+
+div.advance {
+    height: 537px;
+    width: 328px;
+    border: 2px solid #C2C2C3;
+    float: left;
+    background-color: #f9f9f9;
+}
+
+div.advance_top_circle {
+    width: 56px;
+    height: 56px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 100%;
+    position: relative;
+    bottom: 30px;
+    left: calc(50% - 28px);
+}
+
+div.advance_middle_circle {
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    position: relative;
+    top: calc(50% - 14px);
+    left: calc(50% - 14px);
+    background-color: #C2C2C3;
+}
+
+p.advance_plan {
+    font-size: 23px;
+    color: #27c7ab;
+    font-weight: 700;
+    width: 50%;
+    margin: 0 auto;
+    padding: 14px;
+}
+
+div.advance_big_circle {
+    width: 128px;
+    height: 128px;
+    border: 2px solid #C2C2C3;
+    border-radius: 100%;
+    margin: 30px auto;
+}
+
+div.advance_cena {
+    margin-left: calc(50% - 28px);
+    font-size: 36px;
+    font-weight: 900;
+    color: #C2C2C3;
+    margin-top: inherit;
+    letter-spacing: 2px;
+}
+
+div.advance_cena sup {
+    vertical-align: text-top;
+    font-size: small;
+    font-weight: bolder;
+}
+
+div.advance_waluta {
+    margin-left: calc(50% - 43px);
+    font-size: 17px;
+    font-weight: 800;
+    color: #C2C2C3;
+    letter-spacing: 1px;
+}
+
+p.advance_zakup {
+    height: 42px;
+    background-color: #e4e4e4;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 6px 0 6px 0;
+    color: #8f8f8f;
+}
+
+p.advance_servis {
+    height: 42px;
+    background-color: #f1f1f1;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 6px 0 6px 0;
+    color: #7a7a7a;
+}
+
+p.advance_gwarancja {
+    height: 42px;
+    background-color: #f1f1f1;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 6px 0 6px 0;
+    color: #7a7a7a;
+}
+
+p.advance_porady {
+    height: 42px;
+    background-color: #f1f1f1;
+    font-size: 22px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 6px 0 6px 0;
+    color: #7a7a7a;
+}
+
+div.advance_button_dolacz {
+    width: 120px;
+    height: 36px;
+    background-color: #24baa0;
+    color: white;
+    padding: 10px;
+    margin: 15px auto;
+    border-radius: 9px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 14px;
+    text-align: center;
+}
+
+p.contact {
+    font-weight: 900;
+    font-size: 21px;
+    letter-spacing: 1px;
+    color: #818181;
+    padding: 41px 0 10px 0;
+    border-bottom: 7px solid #27c7ab;
+    width: 326px;
+    margin-bottom: 55px;
+}
+
+div.input_box {
+    float: left;
+}
+
+input[type="text"], input[type="email"], textarea {
+    display: block;
+    border: 1px solid #27c7ab;
+    font-family: 'Raleway', sans-serif;
+}
+
+input[type="text"], input[type="email"] {
+    width: 630px;
+    height: 76px;
+    margin-bottom: 35px;
+}
+
+textarea {
+    height: 192px;
+    width: 630px;
+}
+
+div.red_chair_box {
+    width: 400px;
+    height: 512px;
+    margin-top: -98px;
+    float:right;
+}
+img.red_chair {
+    width: 84%;
+    margin-top: 3px;
+}
+
+
+input[type="submit"] {
+    width: 100%;
+    height: 70px;
+    background-color: #24baa0;
+    color: white;
+    border-radius: 9px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: block;
+    clear: both;
+    margin: 51px auto 0;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+}
+
+::-webkit-input-placeholder {
+    font-size: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    padding: 6px 0 0 15px;
+}
+
+input[type="checkbox"] {
+    display:none;
+}
+input[type="checkbox"] + label span {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    background: url(../photos/Icon_unchecked.jpg);
+    cursor: pointer;
+    float: left;
+}
+input[type="checkbox"]:checked + label span {
+    background:url("../photos/Icon_checked.jpg");
+}
+
+label[name="zgoda"] {
+    font-size: 30px;
+}
+
+
+p.zz {
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    color: #aaaaaa;
+    font-weight: 200;
+    margin-left: 64px;
+}
