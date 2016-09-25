@@ -241,7 +241,7 @@ div.basic_top_circle {
     width: 56px;
     height: 56px;
     background-color: white;
-    border: 1px solid grey;
+    border: 2px solid #C2C2C3;
     border-radius: 100%;
     position: relative;
     bottom: 30px;
@@ -273,6 +273,7 @@ div.basic_big_circle {
     border: 2px solid #C2C2C3;
     border-radius: 100%;
     margin: 30px auto;
+    background-color: white;
 }
 
 div.basic_cena {
@@ -335,8 +336,8 @@ div.basic_button_dolacz {
 div.standard {
     height: 537px;
     width: 328px;
-    border: 2px solid #C2C2C3;
-    background-color: #f9f9f9;
+    border: 2px solid #24baa0;
+    background-color: #24baa0;
     margin-right: 58px;
     float: left;
 }
@@ -345,11 +346,11 @@ div.standard_top_circle {
     width: 56px;
     height: 56px;
     background-color: white;
-    border: 1px solid grey;
     border-radius: 100%;
     position: relative;
     bottom: 30px;
     left: calc(50% - 28px);
+    background-color: #24baa0;
 }
 
 div.standard_middle_circle {
@@ -359,12 +360,12 @@ div.standard_middle_circle {
     position: relative;
     top: calc(50% - 14px);
     left: calc(50% - 14px);
-    background-color: #C2C2C3;
+    background-color: #fcf7fb;
 }
 
 p.standard_plan {
     font-size: 23px;
-    color: #27c7ab;
+    color: #deffff;
     font-weight: 700;
     width: 70%;
     margin: 0 auto;
@@ -374,16 +375,17 @@ p.standard_plan {
 div.standard_big_circle {
     width: 128px;
     height: 128px;
-    border: 2px solid #C2C2C3;
+    border: 2px solid white;
     border-radius: 100%;
     margin: 30px auto;
+    background-color: white;
 }
 
 div.standard_cena {
     margin-left: calc(50% - 28px);
     font-size: 36px;
     font-weight: 900;
-    color: #C2C2C3;
+    color:#24baa0;;
     margin-top: inherit;
     letter-spacing: 2px;
 }
@@ -398,13 +400,13 @@ div.standard_waluta {
     margin-left: calc(50% - 43px);
     font-size: 17px;
     font-weight: 800;
-    color: #C2C2C3;
+    color:#24baa0;
     letter-spacing: 1px;
 }
 
 p.standard_zakup {
     height: 42px;
-    background-color: #e4e4e4;
+    background-color: white;
     font-size: 22px;
     letter-spacing: 1px;
     text-align: center;
@@ -424,7 +426,7 @@ p.standard_servis {
 
 p.standard_gwarancja {
     height: 42px;
-    background-color: #f1f1f1;
+    background-color: white;
     font-size: 22px;
     letter-spacing: 1px;
     text-align: center;
@@ -435,8 +437,8 @@ p.standard_gwarancja {
 div.standard_button_dolacz {
     width: 120px;
     height: 36px;
-    background-color: #24baa0;
-    color: white;
+    background-color: white;
+    color: #24baa0;
     padding: 10px;
     margin: 57px auto;
     border-radius: 9px;
@@ -458,7 +460,7 @@ div.advance_top_circle {
     width: 56px;
     height: 56px;
     background-color: white;
-    border: 1px solid grey;
+    border: 2px solid #C2C2C3;
     border-radius: 100%;
     position: relative;
     bottom: 30px;
@@ -479,7 +481,7 @@ p.advance_plan {
     font-size: 23px;
     color: #27c7ab;
     font-weight: 700;
-    width: 50%;
+    width: 65%;
     margin: 0 auto;
     padding: 14px;
 }
@@ -490,6 +492,7 @@ div.advance_big_circle {
     border: 2px solid #C2C2C3;
     border-radius: 100%;
     margin: 30px auto;
+    background-color: white;
 }
 
 div.advance_cena {
@@ -518,11 +521,11 @@ div.advance_waluta {
 p.advance_zakup {
     height: 42px;
     background-color: #e4e4e4;
+    color: #8f8f8f;
     font-size: 22px;
     letter-spacing: 1px;
     text-align: center;
     padding: 6px 0 6px 0;
-    color: #8f8f8f;
 }
 
 p.advance_servis {
@@ -537,12 +540,12 @@ p.advance_servis {
 
 p.advance_gwarancja {
     height: 42px;
-    background-color: #f1f1f1;
     font-size: 22px;
     letter-spacing: 1px;
     text-align: center;
     padding: 6px 0 6px 0;
-    color: #7a7a7a;
+    background-color: #e4e4e4;
+    color: #8f8f8f;
 }
 
 p.advance_porady {
@@ -607,11 +610,16 @@ div.red_chair_box {
     margin-top: -98px;
     float:right;
 }
+div.red_chair_box::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
 img.red_chair {
     width: 84%;
     margin-top: 3px;
 }
-
 
 input[type="submit"] {
     width: 100%;
@@ -657,10 +665,44 @@ label[name="zgoda"] {
 }
 
 
-p.zz {
+p.zgoda_dane {
     font-size: 20px;
     letter-spacing: 0.5px;
     color: #aaaaaa;
     font-weight: 200;
     margin-left: 64px;
+}
+
+p.copyrights {
+    float: left;
+    margin-top: 92px;
+    color: #9c9c9c;
+    letter-spacing: 1px;
+}
+
+ul.social_media_links {
+    float: left;
+    margin-top: 85px;
+    margin-left: 280px;
+}
+
+ul.social_media_links li {
+    display:inline-block;
+}
+
+p.footer_logo {
+    float: right;
+    margin-top: 90px;
+    color: #9c9c9c;
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+footer::after {
+    display: block;
+    content:"";
+    clear:both;
+}
+p.footer_logo span {
+    font-weight: 900;
 }
